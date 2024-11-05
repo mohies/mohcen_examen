@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+    <html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Índice de URLs</title>
+    </head>
+    <body>
+        <h1>Índice de URLs</h1>
+        <ul>
+            <li><a href="{% url 'ultimo_voto' 3 %}">URL ejercicio 1</a></li>
+            <li><a href="{% url 'televisores_con_voto_bajo' 4 %}">URL ejercicio 2</a></li>
+            <li><a href="{% url 'usuarios_no' %}">URL ejercicio 3</a></li>
+            <li><a href="{% url 'cuentas_bancarias_juan' %}">URL ejercicio 4</a></li>
+            <li><a href="{% url 'votos_filtrados' %}">URL ejercicio 5</a></li>
+            <li><a href="{% url 'media' %}">URL ejercicio 6</a></li>
+            
+        </ul>
+    </body>
+    </html>

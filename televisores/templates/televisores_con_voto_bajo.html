@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Último Voto</title>
+</head>
+<body>
+
+<h1>Televisores con votos bajos</h1>
+<ul>
+  {% for televisor in televisores %}
+    <li>
+      <h3>{{ televisor.marca }} - {{ televisor.modelo }}</h3>
+      <p>Pulgadas: {{ televisor.pulgadas }}"</p>
+      <p>Precio: {{ televisor.precio }}</p>
+      <p>Descripción: {{ televisor.descripcion }}</p>
+
+      <h4>Votaciones:</h4>
+      <ul>
+        {% for votacion in televisor.votacion.all %}
+          <li>
+            Usuario: {{ votacion.usuario.nombre }}<br>
+            Puntuación: {{ votacion.puntuacion }}<br>
+            Comentarios: {{ votacion.comentarios }}<br>
+            Fecha de voto: {{ votacion.fecha_voto }}
+          </li>
+        {% endfor %}
+      </ul>
+    </li>
+  {% endfor %}
+</ul>
+
+</body>
+</html>

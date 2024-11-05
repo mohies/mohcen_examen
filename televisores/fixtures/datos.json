@@ -1,0 +1,1539 @@
+[
+{
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+        "action_time": "2024-11-05T10:06:15.520Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "48",
+        "object_repr": "Votacion object (48)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+        "action_time": "2024-11-05T10:06:23.389Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "49",
+        "object_repr": "Votacion object (49)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+        "action_time": "2024-11-05T10:10:31.448Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "16",
+        "object_repr": "Juan",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+        "action_time": "2024-11-05T10:10:38.578Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "16",
+        "object_repr": "Juan",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+        "action_time": "2024-11-05T10:10:50.272Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "17",
+        "object_repr": "Juan",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+        "action_time": "2024-11-05T10:11:00.324Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "17",
+        "object_repr": "Juan",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 1,
+    "fields": {
+        "name": "Can add log entry",
+        "content_type": 1,
+        "codename": "add_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 2,
+    "fields": {
+        "name": "Can change log entry",
+        "content_type": 1,
+        "codename": "change_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 3,
+    "fields": {
+        "name": "Can delete log entry",
+        "content_type": 1,
+        "codename": "delete_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 4,
+    "fields": {
+        "name": "Can view log entry",
+        "content_type": 1,
+        "codename": "view_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 5,
+    "fields": {
+        "name": "Can add permission",
+        "content_type": 2,
+        "codename": "add_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 6,
+    "fields": {
+        "name": "Can change permission",
+        "content_type": 2,
+        "codename": "change_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 7,
+    "fields": {
+        "name": "Can delete permission",
+        "content_type": 2,
+        "codename": "delete_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 8,
+    "fields": {
+        "name": "Can view permission",
+        "content_type": 2,
+        "codename": "view_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 9,
+    "fields": {
+        "name": "Can add group",
+        "content_type": 3,
+        "codename": "add_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 10,
+    "fields": {
+        "name": "Can change group",
+        "content_type": 3,
+        "codename": "change_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 11,
+    "fields": {
+        "name": "Can delete group",
+        "content_type": 3,
+        "codename": "delete_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 12,
+    "fields": {
+        "name": "Can view group",
+        "content_type": 3,
+        "codename": "view_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 13,
+    "fields": {
+        "name": "Can add user",
+        "content_type": 4,
+        "codename": "add_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 14,
+    "fields": {
+        "name": "Can change user",
+        "content_type": 4,
+        "codename": "change_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 15,
+    "fields": {
+        "name": "Can delete user",
+        "content_type": 4,
+        "codename": "delete_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 16,
+    "fields": {
+        "name": "Can view user",
+        "content_type": 4,
+        "codename": "view_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 17,
+    "fields": {
+        "name": "Can add content type",
+        "content_type": 5,
+        "codename": "add_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 18,
+    "fields": {
+        "name": "Can change content type",
+        "content_type": 5,
+        "codename": "change_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 19,
+    "fields": {
+        "name": "Can delete content type",
+        "content_type": 5,
+        "codename": "delete_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 20,
+    "fields": {
+        "name": "Can view content type",
+        "content_type": 5,
+        "codename": "view_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 21,
+    "fields": {
+        "name": "Can add session",
+        "content_type": 6,
+        "codename": "add_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 22,
+    "fields": {
+        "name": "Can change session",
+        "content_type": 6,
+        "codename": "change_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 23,
+    "fields": {
+        "name": "Can delete session",
+        "content_type": 6,
+        "codename": "delete_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 24,
+    "fields": {
+        "name": "Can view session",
+        "content_type": 6,
+        "codename": "view_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 25,
+    "fields": {
+        "name": "Can add televisor",
+        "content_type": 7,
+        "codename": "add_televisor"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 26,
+    "fields": {
+        "name": "Can change televisor",
+        "content_type": 7,
+        "codename": "change_televisor"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 27,
+    "fields": {
+        "name": "Can delete televisor",
+        "content_type": 7,
+        "codename": "delete_televisor"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 28,
+    "fields": {
+        "name": "Can view televisor",
+        "content_type": 7,
+        "codename": "view_televisor"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 29,
+    "fields": {
+        "name": "Can add usuario",
+        "content_type": 8,
+        "codename": "add_usuario"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 30,
+    "fields": {
+        "name": "Can change usuario",
+        "content_type": 8,
+        "codename": "change_usuario"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 31,
+    "fields": {
+        "name": "Can delete usuario",
+        "content_type": 8,
+        "codename": "delete_usuario"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 32,
+    "fields": {
+        "name": "Can view usuario",
+        "content_type": 8,
+        "codename": "view_usuario"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 33,
+    "fields": {
+        "name": "Can add cuenta bancaria",
+        "content_type": 9,
+        "codename": "add_cuentabancaria"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 34,
+    "fields": {
+        "name": "Can change cuenta bancaria",
+        "content_type": 9,
+        "codename": "change_cuentabancaria"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 35,
+    "fields": {
+        "name": "Can delete cuenta bancaria",
+        "content_type": 9,
+        "codename": "delete_cuentabancaria"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 36,
+    "fields": {
+        "name": "Can view cuenta bancaria",
+        "content_type": 9,
+        "codename": "view_cuentabancaria"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 37,
+    "fields": {
+        "name": "Can add votacion",
+        "content_type": 10,
+        "codename": "add_votacion"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 38,
+    "fields": {
+        "name": "Can change votacion",
+        "content_type": 10,
+        "codename": "change_votacion"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 39,
+    "fields": {
+        "name": "Can delete votacion",
+        "content_type": 10,
+        "codename": "delete_votacion"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 40,
+    "fields": {
+        "name": "Can view votacion",
+        "content_type": 10,
+        "codename": "view_votacion"
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 1,
+    "fields": {
+        "password": "pbkdf2_sha256$870000$VK0V1rAqXW89XAIsXLkhLQ$coLtNcmQw7j2kgl3tMNVDaFeUZ1ZWr1D90gDE+g9Svo=",
+        "last_login": "2024-11-05T10:06:01.744Z",
+        "is_superuser": true,
+        "username": "admin",
+        "first_name": "",
+        "last_name": "",
+        "email": "admin@dasasd.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2024-11-05T10:05:53.028Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 1,
+    "fields": {
+        "app_label": "admin",
+        "model": "logentry"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 2,
+    "fields": {
+        "app_label": "auth",
+        "model": "permission"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 3,
+    "fields": {
+        "app_label": "auth",
+        "model": "group"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 4,
+    "fields": {
+        "app_label": "auth",
+        "model": "user"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 5,
+    "fields": {
+        "app_label": "contenttypes",
+        "model": "contenttype"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 6,
+    "fields": {
+        "app_label": "sessions",
+        "model": "session"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 7,
+    "fields": {
+        "app_label": "televisores",
+        "model": "televisor"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 8,
+    "fields": {
+        "app_label": "televisores",
+        "model": "usuario"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 9,
+    "fields": {
+        "app_label": "televisores",
+        "model": "cuentabancaria"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 10,
+    "fields": {
+        "app_label": "televisores",
+        "model": "votacion"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "4rvgra18s9nzhks3r8ttl53wdfo2cm83",
+    "fields": {
+        "session_data": ".eJxVjEEOwiAURO_C2hBAygeX7nsG8uGDVA0kpV0Z764kXehy5r2ZF_O4b8XvPa1-IXZhkp1-u4DxkeoAdMd6azy2uq1L4EPhB-18bpSe18P9OyjYy1ijASWADEmBWlqXtaJvjBYg4lmRdHnSmQAgO4FRBlKTM8FmYRVowd4f3Cg3gg:1t8GRl:Pu9g3sBfxsfOu60k8WdPbyx9DLstKJ6PIk-QfjauX8A",
+        "expire_date": "2024-11-19T10:06:01.773Z"
+    }
+},
+{
+    "model": "televisores.televisor",
+    "pk": 1,
+    "fields": {
+        "marca": "Radio.",
+        "modelo": "Power hit.",
+        "pulgadas": 1430,
+        "precio": "0.69",
+        "descripcion": "Environment heart despite keep. Voice several head allow.\nEye face attorney. Everyone property conference safe picture. Wide international difficult half bar morning myself."
+    }
+},
+{
+    "model": "televisores.televisor",
+    "pk": 2,
+    "fields": {
+        "marca": "Woman.",
+        "modelo": "Food.",
+        "pulgadas": 7590,
+        "precio": "0.43",
+        "descripcion": "See record goal. Clear increase trade. Part book party among common science.\nOr hand likely prove sometimes season. Of indicate management little make consider."
+    }
+},
+{
+    "model": "televisores.televisor",
+    "pk": 3,
+    "fields": {
+        "marca": "Campaign.",
+        "modelo": "Situation.",
+        "pulgadas": 12037,
+        "precio": "0.30",
+        "descripcion": "Hair fish attorney PM war. Democrat morning series social.\nSay identify attorney inside forget rich. Whatever different produce wife.\nOur most prepare side road should white. Close power happen show."
+    }
+},
+{
+    "model": "televisores.televisor",
+    "pk": 4,
+    "fields": {
+        "marca": "Not.",
+        "modelo": "Area more.",
+        "pulgadas": 18242,
+        "precio": "0.89",
+        "descripcion": "Safe history show hit. Money pressure body he position officer state.\nSeries maintain finish suffer door national treatment. Herself push early however everything."
+    }
+},
+{
+    "model": "televisores.televisor",
+    "pk": 5,
+    "fields": {
+        "marca": "Alone.",
+        "modelo": "Expect.",
+        "pulgadas": 7027,
+        "precio": "0.72",
+        "descripcion": "Role design office through class. Race candidate once feel land west serve. Cell bank because energy can it.\nSense billion professional guy else. Dark throw get dinner fight ground strategy."
+    }
+},
+{
+    "model": "televisores.televisor",
+    "pk": 6,
+    "fields": {
+        "marca": "Real.",
+        "modelo": "Language.",
+        "pulgadas": 7408,
+        "precio": "0.77",
+        "descripcion": "Here program student all too natural capital. State positive too room half simply statement.\nSing hard amount answer serious recently model. White material election five."
+    }
+},
+{
+    "model": "televisores.televisor",
+    "pk": 7,
+    "fields": {
+        "marca": "Wonder.",
+        "modelo": "Possible.",
+        "pulgadas": 26321,
+        "precio": "0.29",
+        "descripcion": "Employee too trip walk discover question game. Religious year practice watch project modern do Mrs. Whole gun since environmental."
+    }
+},
+{
+    "model": "televisores.televisor",
+    "pk": 8,
+    "fields": {
+        "marca": "Move hard.",
+        "modelo": "News.",
+        "pulgadas": 32589,
+        "precio": "0.91",
+        "descripcion": "Act anyone girl everyone. Life morning newspaper. After adult staff course until out notice."
+    }
+},
+{
+    "model": "televisores.televisor",
+    "pk": 9,
+    "fields": {
+        "marca": "Detail.",
+        "modelo": "Thing.",
+        "pulgadas": 1078,
+        "precio": "0.88",
+        "descripcion": "Nation through Republican. Sister ability whatever against pressure. Environment recognize mouth college contain difficult born health.\nIndustry cup year. Building mother thought take green husband."
+    }
+},
+{
+    "model": "televisores.televisor",
+    "pk": 10,
+    "fields": {
+        "marca": "Though.",
+        "modelo": "Computer.",
+        "pulgadas": 2170,
+        "precio": "0.88",
+        "descripcion": "The partner guess western everyone. Public human such number represent.\nSize student happen. Finish usually catch. Rather little decade police.\nLook tax small large expect."
+    }
+},
+{
+    "model": "televisores.televisor",
+    "pk": 11,
+    "fields": {
+        "marca": "Science.",
+        "modelo": "Political.",
+        "pulgadas": 26624,
+        "precio": "0.45",
+        "descripcion": "Significant woman bad politics peace stand there.\nSimply possible trouble war tend. One memory whatever nature bank peace. Ahead station political floor quickly talk grow them."
+    }
+},
+{
+    "model": "televisores.televisor",
+    "pk": 12,
+    "fields": {
+        "marca": "Increase.",
+        "modelo": "Happy.",
+        "pulgadas": 419,
+        "precio": "0.12",
+        "descripcion": "Season prove difference source few Democrat impact. Make magazine up respond of. Race local other clearly through Mr chance."
+    }
+},
+{
+    "model": "televisores.televisor",
+    "pk": 13,
+    "fields": {
+        "marca": "Important.",
+        "modelo": "Point.",
+        "pulgadas": 3914,
+        "precio": "0.90",
+        "descripcion": "These street fact fast early poor never. Live affect dream cell cost.\nSave impact win. Very consider truth product plant subject. Community safe school sense."
+    }
+},
+{
+    "model": "televisores.televisor",
+    "pk": 14,
+    "fields": {
+        "marca": "He west.",
+        "modelo": "My keep.",
+        "pulgadas": 8457,
+        "precio": "0.59",
+        "descripcion": "Particular region police choose seek score. Now people situation leg wall baby.\nMemory street leader camera fine. Stop dinner condition. Sell thing it attorney consider debate."
+    }
+},
+{
+    "model": "televisores.televisor",
+    "pk": 15,
+    "fields": {
+        "marca": "Occur.",
+        "modelo": "Special.",
+        "pulgadas": 21075,
+        "precio": "0.78",
+        "descripcion": "Serious to space political range.\nHold wife industry office church. Perform hundred type woman upon. Detail answer suffer similar very become Mrs amount."
+    }
+},
+{
+    "model": "televisores.usuario",
+    "pk": 1,
+    "fields": {
+        "nombre": "Save.",
+        "email": "smithsamantha@example.net"
+    }
+},
+{
+    "model": "televisores.usuario",
+    "pk": 2,
+    "fields": {
+        "nombre": "Likely.",
+        "email": "savannah78@example.org"
+    }
+},
+{
+    "model": "televisores.usuario",
+    "pk": 3,
+    "fields": {
+        "nombre": "Avoid.",
+        "email": "clifford83@example.net"
+    }
+},
+{
+    "model": "televisores.usuario",
+    "pk": 4,
+    "fields": {
+        "nombre": "Indeed.",
+        "email": "mariahrogers@example.net"
+    }
+},
+{
+    "model": "televisores.usuario",
+    "pk": 5,
+    "fields": {
+        "nombre": "To scene.",
+        "email": "timothymiller@example.com"
+    }
+},
+{
+    "model": "televisores.usuario",
+    "pk": 6,
+    "fields": {
+        "nombre": "Statement.",
+        "email": "omartin@example.org"
+    }
+},
+{
+    "model": "televisores.usuario",
+    "pk": 7,
+    "fields": {
+        "nombre": "Similar.",
+        "email": "xnelson@example.com"
+    }
+},
+{
+    "model": "televisores.usuario",
+    "pk": 8,
+    "fields": {
+        "nombre": "Recognize.",
+        "email": "elizabeth02@example.org"
+    }
+},
+{
+    "model": "televisores.usuario",
+    "pk": 9,
+    "fields": {
+        "nombre": "Prevent.",
+        "email": "chelseaclark@example.com"
+    }
+},
+{
+    "model": "televisores.usuario",
+    "pk": 10,
+    "fields": {
+        "nombre": "West rich.",
+        "email": "whitemiranda@example.org"
+    }
+},
+{
+    "model": "televisores.usuario",
+    "pk": 11,
+    "fields": {
+        "nombre": "Rise.",
+        "email": "wlee@example.net"
+    }
+},
+{
+    "model": "televisores.usuario",
+    "pk": 12,
+    "fields": {
+        "nombre": "Book seat.",
+        "email": "kelly44@example.com"
+    }
+},
+{
+    "model": "televisores.usuario",
+    "pk": 13,
+    "fields": {
+        "nombre": "East.",
+        "email": "stephensjeffrey@example.org"
+    }
+},
+{
+    "model": "televisores.usuario",
+    "pk": 14,
+    "fields": {
+        "nombre": "Best.",
+        "email": "brianlogan@example.org"
+    }
+},
+{
+    "model": "televisores.usuario",
+    "pk": 15,
+    "fields": {
+        "nombre": "Street.",
+        "email": "pwhite@example.org"
+    }
+},
+{
+    "model": "televisores.usuario",
+    "pk": 16,
+    "fields": {
+        "nombre": "Juan",
+        "email": "juan@asddasasdsd.com"
+    }
+},
+{
+    "model": "televisores.usuario",
+    "pk": 17,
+    "fields": {
+        "nombre": "Juan",
+        "email": "dasasdsdasddas@gmail.com"
+    }
+},
+{
+    "model": "televisores.votacion",
+    "pk": 1,
+    "fields": {
+        "usuario": 1,
+        "televisor": 11,
+        "puntuacion": 5,
+        "comentarios": "",
+        "fecha_voto": "2024-11-05"
+    }
+},
+{
+    "model": "televisores.votacion",
+    "pk": 2,
+    "fields": {
+        "usuario": 1,
+        "televisor": 14,
+        "puntuacion": 5,
+        "comentarios": "",
+        "fecha_voto": "2024-11-05"
+    }
+},
+{
+    "model": "televisores.votacion",
+    "pk": 3,
+    "fields": {
+        "usuario": 1,
+        "televisor": 6,
+        "puntuacion": 5,
+        "comentarios": "",
+        "fecha_voto": "2024-11-05"
+    }
+},
+{
+    "model": "televisores.votacion",
+    "pk": 4,
+    "fields": {
+        "usuario": 2,
+        "televisor": 3,
+        "puntuacion": 5,
+        "comentarios": "",
+        "fecha_voto": "2024-11-05"
+    }
+},
+{
+    "model": "televisores.votacion",
+    "pk": 5,
+    "fields": {
+        "usuario": 2,
+        "televisor": 10,
+        "puntuacion": 5,
+        "comentarios": "",
+        "fecha_voto": "2024-11-05"
+    }
+},
+{
+    "model": "televisores.votacion",
+    "pk": 6,
+    "fields": {
+        "usuario": 3,
+        "televisor": 1,
+        "puntuacion": 5,
+        "comentarios": "",
+        "fecha_voto": "2024-11-05"
+    }
+},
+{
+    "model": "televisores.votacion",
+    "pk": 7,
+    "fields": {
+        "usuario": 3,
+        "televisor": 9,
+        "puntuacion": 5,
+        "comentarios": "",
+        "fecha_voto": "2024-11-05"
+    }
+},
+{
+    "model": "televisores.votacion",
+    "pk": 8,
+    "fields": {
+        "usuario": 4,
+        "televisor": 9,
+        "puntuacion": 5,
+        "comentarios": "",
+        "fecha_voto": "2024-11-05"
+    }
+},
+{
+    "model": "televisores.votacion",
+    "pk": 9,
+    "fields": {
+        "usuario": 4,
+        "televisor": 4,
+        "puntuacion": 5,
+        "comentarios": "",
+        "fecha_voto": "2024-11-05"
+    }
+},
+{
+    "model": "televisores.votacion",
+    "pk": 10,
+    "fields": {
+        "usuario": 4,
+        "televisor": 10,
+        "puntuacion": 5,
+        "comentarios": "",
+        "fecha_voto": "2024-11-05"
+    }
+},
+{
+    "model": "televisores.votacion",
+    "pk": 11,
+    "fields": {
+        "usuario": 4,
+        "televisor": 8,
+        "puntuacion": 5,
+        "comentarios": "",
+        "fecha_voto": "2024-11-05"
+    }
+},
+{
+    "model": "televisores.votacion",
+    "pk": 12,
+    "fields": {
+        "usuario": 5,
+        "televisor": 2,
+        "puntuacion": 5,
+        "comentarios": "",
+        "fecha_voto": "2024-11-05"
+    }
+},
+{
+    "model": "televisores.votacion",
+    "pk": 13,
+    "fields": {
+        "usuario": 6,
+        "televisor": 10,
+        "puntuacion": 5,
+        "comentarios": "",
+        "fecha_voto": "2024-11-05"
+    }
+},
+{
+    "model": "televisores.votacion",
+    "pk": 14,
+    "fields": {
+        "usuario": 7,
+        "televisor": 11,
+        "puntuacion": 5,
+        "comentarios": "",
+        "fecha_voto": "2024-11-05"
+    }
+},
+{
+    "model": "televisores.votacion",
+    "pk": 15,
+    "fields": {
+        "usuario": 7,
+        "televisor": 14,
+        "puntuacion": 5,
+        "comentarios": "",
+        "fecha_voto": "2024-11-05"
+    }
+},
+{
+    "model": "televisores.votacion",
+    "pk": 16,
+    "fields": {
+        "usuario": 7,
+        "televisor": 15,
+        "puntuacion": 5,
+        "comentarios": "",
+        "fecha_voto": "2024-11-05"
+    }
+},
+{
+    "model": "televisores.votacion",
+    "pk": 17,
+    "fields": {
+        "usuario": 8,
+        "televisor": 6,
+        "puntuacion": 5,
+        "comentarios": "",
+        "fecha_voto": "2024-11-05"
+    }
+},
+{
+    "model": "televisores.votacion",
+    "pk": 18,
+    "fields": {
+        "usuario": 8,
+        "televisor": 5,
+        "puntuacion": 5,
+        "comentarios": "",
+        "fecha_voto": "2024-11-05"
+    }
+},
+{
+    "model": "televisores.votacion",
+    "pk": 19,
+    "fields": {
+        "usuario": 8,
+        "televisor": 3,
+        "puntuacion": 5,
+        "comentarios": "",
+        "fecha_voto": "2024-11-05"
+    }
+},
+{
+    "model": "televisores.votacion",
+    "pk": 20,
+    "fields": {
+        "usuario": 9,
+        "televisor": 13,
+        "puntuacion": 5,
+        "comentarios": "",
+        "fecha_voto": "2024-11-05"
+    }
+},
+{
+    "model": "televisores.votacion",
+    "pk": 21,
+    "fields": {
+        "usuario": 9,
+        "televisor": 6,
+        "puntuacion": 5,
+        "comentarios": "",
+        "fecha_voto": "2024-11-05"
+    }
+},
+{
+    "model": "televisores.votacion",
+    "pk": 22,
+    "fields": {
+        "usuario": 9,
+        "televisor": 4,
+        "puntuacion": 5,
+        "comentarios": "",
+        "fecha_voto": "2024-11-05"
+    }
+},
+{
+    "model": "televisores.votacion",
+    "pk": 23,
+    "fields": {
+        "usuario": 10,
+        "televisor": 3,
+        "puntuacion": 5,
+        "comentarios": "",
+        "fecha_voto": "2024-11-05"
+    }
+},
+{
+    "model": "televisores.votacion",
+    "pk": 24,
+    "fields": {
+        "usuario": 10,
+        "televisor": 10,
+        "puntuacion": 5,
+        "comentarios": "",
+        "fecha_voto": "2024-11-05"
+    }
+},
+{
+    "model": "televisores.votacion",
+    "pk": 25,
+    "fields": {
+        "usuario": 11,
+        "televisor": 6,
+        "puntuacion": 5,
+        "comentarios": "",
+        "fecha_voto": "2024-11-05"
+    }
+},
+{
+    "model": "televisores.votacion",
+    "pk": 26,
+    "fields": {
+        "usuario": 12,
+        "televisor": 2,
+        "puntuacion": 5,
+        "comentarios": "",
+        "fecha_voto": "2024-11-05"
+    }
+},
+{
+    "model": "televisores.votacion",
+    "pk": 27,
+    "fields": {
+        "usuario": 12,
+        "televisor": 15,
+        "puntuacion": 5,
+        "comentarios": "",
+        "fecha_voto": "2024-11-05"
+    }
+},
+{
+    "model": "televisores.votacion",
+    "pk": 28,
+    "fields": {
+        "usuario": 13,
+        "televisor": 9,
+        "puntuacion": 5,
+        "comentarios": "",
+        "fecha_voto": "2024-11-05"
+    }
+},
+{
+    "model": "televisores.votacion",
+    "pk": 29,
+    "fields": {
+        "usuario": 14,
+        "televisor": 2,
+        "puntuacion": 5,
+        "comentarios": "",
+        "fecha_voto": "2024-11-05"
+    }
+},
+{
+    "model": "televisores.votacion",
+    "pk": 30,
+    "fields": {
+        "usuario": 15,
+        "televisor": 1,
+        "puntuacion": 5,
+        "comentarios": "",
+        "fecha_voto": "2024-11-05"
+    }
+},
+{
+    "model": "televisores.votacion",
+    "pk": 31,
+    "fields": {
+        "usuario": 15,
+        "televisor": 8,
+        "puntuacion": 5,
+        "comentarios": "",
+        "fecha_voto": "2024-11-05"
+    }
+},
+{
+    "model": "televisores.votacion",
+    "pk": 32,
+    "fields": {
+        "usuario": 15,
+        "televisor": 13,
+        "puntuacion": 5,
+        "comentarios": "",
+        "fecha_voto": "2024-11-05"
+    }
+},
+{
+    "model": "televisores.votacion",
+    "pk": 33,
+    "fields": {
+        "usuario": 8,
+        "televisor": 8,
+        "puntuacion": 5,
+        "comentarios": "As election couple watch explain late with among. Executive baby social line close. Land truth sport continue.",
+        "fecha_voto": "2024-11-05"
+    }
+},
+{
+    "model": "televisores.votacion",
+    "pk": 34,
+    "fields": {
+        "usuario": 1,
+        "televisor": 6,
+        "puntuacion": 5,
+        "comentarios": "Student pretty leave ten never.\nSuccessful far history number. Great center ok dark identify. Laugh from conference resource trade. Commercial kitchen could speech less.",
+        "fecha_voto": "2024-11-05"
+    }
+},
+{
+    "model": "televisores.votacion",
+    "pk": 35,
+    "fields": {
+        "usuario": 12,
+        "televisor": 8,
+        "puntuacion": 5,
+        "comentarios": "Blue may soon southern outside. Likely along feeling suddenly.",
+        "fecha_voto": "2024-11-05"
+    }
+},
+{
+    "model": "televisores.votacion",
+    "pk": 36,
+    "fields": {
+        "usuario": 10,
+        "televisor": 13,
+        "puntuacion": 5,
+        "comentarios": "Also compare focus best physical central. Ask thank hundred develop out reveal determine. Kid cell brother maintain song hope. Buy since scientist need claim wide.",
+        "fecha_voto": "2024-11-05"
+    }
+},
+{
+    "model": "televisores.votacion",
+    "pk": 37,
+    "fields": {
+        "usuario": 8,
+        "televisor": 6,
+        "puntuacion": 5,
+        "comentarios": "Our six any bed most yes focus. Husband resource time partner federal.\nFormer reality chance cup. Might successful high there. Food against today method itself.",
+        "fecha_voto": "2024-11-05"
+    }
+},
+{
+    "model": "televisores.votacion",
+    "pk": 38,
+    "fields": {
+        "usuario": 5,
+        "televisor": 2,
+        "puntuacion": 5,
+        "comentarios": "Note join consumer. Reality foreign great write yard media media.\nBody radio red student interesting image. Dog return offer foreign stop prevent stock her.",
+        "fecha_voto": "2024-11-05"
+    }
+},
+{
+    "model": "televisores.votacion",
+    "pk": 39,
+    "fields": {
+        "usuario": 11,
+        "televisor": 1,
+        "puntuacion": 5,
+        "comentarios": "Lose why rise suggest investment me although.\nSea fast always quite. Too memory fact letter summer. Himself local claim.",
+        "fecha_voto": "2024-11-05"
+    }
+},
+{
+    "model": "televisores.votacion",
+    "pk": 40,
+    "fields": {
+        "usuario": 6,
+        "televisor": 2,
+        "puntuacion": 5,
+        "comentarios": "Human past energy admit sit amount personal Mrs. Rest them chance easy door interest line. Push those left process article.\nMonth page people different standard. Mean matter wide I price life level.",
+        "fecha_voto": "2024-11-05"
+    }
+},
+{
+    "model": "televisores.votacion",
+    "pk": 41,
+    "fields": {
+        "usuario": 10,
+        "televisor": 4,
+        "puntuacion": 5,
+        "comentarios": "Company career road big program eight. Town capital measure office. Three cultural fall best.\nThousand early stock Democrat too cause once voice. Site allow music style measure one upon.",
+        "fecha_voto": "2024-11-05"
+    }
+},
+{
+    "model": "televisores.votacion",
+    "pk": 42,
+    "fields": {
+        "usuario": 1,
+        "televisor": 2,
+        "puntuacion": 5,
+        "comentarios": "May trial for skill travel others population modern. Animal police condition.\nFall soldier without large sometimes. Practice seven significant medical morning imagine smile. Out who each hour.",
+        "fecha_voto": "2024-11-05"
+    }
+},
+{
+    "model": "televisores.votacion",
+    "pk": 43,
+    "fields": {
+        "usuario": 7,
+        "televisor": 7,
+        "puntuacion": 5,
+        "comentarios": "Blue car true meet beautiful buy. Daughter direction evening field.\nConsider reduce goal. Hear make case by sport hold.\nStand strategy Congress necessary war receive charge individual.",
+        "fecha_voto": "2024-11-05"
+    }
+},
+{
+    "model": "televisores.votacion",
+    "pk": 44,
+    "fields": {
+        "usuario": 12,
+        "televisor": 7,
+        "puntuacion": 5,
+        "comentarios": "Bed write of sign coach seven. Behavior add sign economy modern them.\nMiddle director during probably however. Line rise world body join month.",
+        "fecha_voto": "2024-11-05"
+    }
+},
+{
+    "model": "televisores.votacion",
+    "pk": 45,
+    "fields": {
+        "usuario": 5,
+        "televisor": 8,
+        "puntuacion": 5,
+        "comentarios": "Today spend bar professional. Buy increase establish authority cut do. Anyone purpose answer event better PM line.\nOffer teacher production remain follow suggest. Send quickly cell break.",
+        "fecha_voto": "2024-11-05"
+    }
+},
+{
+    "model": "televisores.votacion",
+    "pk": 46,
+    "fields": {
+        "usuario": 2,
+        "televisor": 7,
+        "puntuacion": 5,
+        "comentarios": "Shoulder think source head instead. Task budget over base. Environment thus until strong.\nOr will him fall.\nPresident board structure two would. Structure team six level tend moment.",
+        "fecha_voto": "2024-11-05"
+    }
+},
+{
+    "model": "televisores.votacion",
+    "pk": 47,
+    "fields": {
+        "usuario": 5,
+        "televisor": 15,
+        "puntuacion": 5,
+        "comentarios": "List technology century person share special all. Man worry town thought line.\nFinish sense method single stuff. Good money activity movie he.",
+        "fecha_voto": "2024-11-05"
+    }
+},
+{
+    "model": "televisores.votacion",
+    "pk": 48,
+    "fields": {
+        "usuario": 3,
+        "televisor": 1,
+        "puntuacion": 1,
+        "comentarios": "dassdasdasdasdasdasd",
+        "fecha_voto": "2024-11-05"
+    }
+},
+{
+    "model": "televisores.votacion",
+    "pk": 49,
+    "fields": {
+        "usuario": 4,
+        "televisor": 2,
+        "puntuacion": 2,
+        "comentarios": "asdasdsdaasdasddassda",
+        "fecha_voto": "2024-11-05"
+    }
+},
+{
+    "model": "televisores.cuentabancaria",
+    "pk": 1,
+    "fields": {
+        "usuario": 6,
+        "numero_cuenta": "Affect sometimes.",
+        "banco": "ING"
+    }
+},
+{
+    "model": "televisores.cuentabancaria",
+    "pk": 2,
+    "fields": {
+        "usuario": 11,
+        "numero_cuenta": "Executive popular.",
+        "banco": "BBVA"
+    }
+},
+{
+    "model": "televisores.cuentabancaria",
+    "pk": 3,
+    "fields": {
+        "usuario": 10,
+        "numero_cuenta": "Soon your nice from.",
+        "banco": "Caixa"
+    }
+},
+{
+    "model": "televisores.cuentabancaria",
+    "pk": 4,
+    "fields": {
+        "usuario": 14,
+        "numero_cuenta": "Remember main.",
+        "banco": "Caixa"
+    }
+},
+{
+    "model": "televisores.cuentabancaria",
+    "pk": 5,
+    "fields": {
+        "usuario": 1,
+        "numero_cuenta": "Feeling as owner.",
+        "banco": "UNICAJA"
+    }
+},
+{
+    "model": "televisores.cuentabancaria",
+    "pk": 6,
+    "fields": {
+        "usuario": 13,
+        "numero_cuenta": "First event family.",
+        "banco": "Caixa"
+    }
+},
+{
+    "model": "televisores.cuentabancaria",
+    "pk": 7,
+    "fields": {
+        "usuario": 8,
+        "numero_cuenta": "Establish newspaper.",
+        "banco": "ING"
+    }
+},
+{
+    "model": "televisores.cuentabancaria",
+    "pk": 8,
+    "fields": {
+        "usuario": 12,
+        "numero_cuenta": "Practice indicate.",
+        "banco": "UNICAJA"
+    }
+},
+{
+    "model": "televisores.cuentabancaria",
+    "pk": 9,
+    "fields": {
+        "usuario": 5,
+        "numero_cuenta": "Husband wear none.",
+        "banco": "Caixa"
+    }
+},
+{
+    "model": "televisores.cuentabancaria",
+    "pk": 10,
+    "fields": {
+        "usuario": 3,
+        "numero_cuenta": "Win believe final.",
+        "banco": "ING"
+    }
+},
+{
+    "model": "televisores.cuentabancaria",
+    "pk": 11,
+    "fields": {
+        "usuario": 2,
+        "numero_cuenta": "Expect avoid over.",
+        "banco": "BBVA"
+    }
+},
+{
+    "model": "televisores.cuentabancaria",
+    "pk": 12,
+    "fields": {
+        "usuario": 9,
+        "numero_cuenta": "Design pull lead.",
+        "banco": "UNICAJA"
+    }
+},
+{
+    "model": "televisores.cuentabancaria",
+    "pk": 13,
+    "fields": {
+        "usuario": 4,
+        "numero_cuenta": "Before final field.",
+        "banco": "ING"
+    }
+},
+{
+    "model": "televisores.cuentabancaria",
+    "pk": 14,
+    "fields": {
+        "usuario": 7,
+        "numero_cuenta": "Eye eye ten bill.",
+        "banco": "Caixa"
+    }
+},
+{
+    "model": "televisores.cuentabancaria",
+    "pk": 15,
+    "fields": {
+        "usuario": 15,
+        "numero_cuenta": "Seem mother land.",
+        "banco": "UNICAJA"
+    }
+},
+{
+    "model": "televisores.cuentabancaria",
+    "pk": 16,
+    "fields": {
+        "usuario": 16,
+        "numero_cuenta": "234342234234423",
+        "banco": "UNICAJA"
+    }
+},
+{
+    "model": "televisores.cuentabancaria",
+    "pk": 17,
+    "fields": {
+        "usuario": 17,
+        "numero_cuenta": "234454234",
+        "banco": "Caixa"
+    }
+}
+]

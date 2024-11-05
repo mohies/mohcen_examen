@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cuentas Bancarias de Juan</title>
+</head>
+<body>
+    <h1>Cuentas Bancarias de Usuarios con "Juan" en su Nombre</h1>
+
+    <ul>
+        {% for cuenta in cuentas %}
+            <li>
+                <strong>Usuario:</strong> {{ cuenta.usuario.nombre }}<br>
+                <strong>Cuenta:</strong> {{ cuenta.numero_cuenta }}<br>
+                <strong>Banco:</strong> {{ cuenta.banco }}<br>
+            </li>
+        {% endfor %}
+    </ul>
+
+</body>
+</html>

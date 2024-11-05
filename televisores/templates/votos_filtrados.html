@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Votaciones Filtradas</title>
+</head>
+<body>
+    <h1>Votaciones Filtradas</h1>
+
+    {% for votacion in votos %}
+        <p><strong>Usuario:</strong> {{ votacion.usuario.nombre }}</p>
+        <p><strong>Televisor:</strong> {{ votacion.televisor.marca }} - {{ votacion.televisor.modelo }}</p>
+        <p><strong>Puntuación:</strong> {{ votacion.puntuacion }}</p>
+        <p><strong>Comentarios:</strong> {{ votacion.comentarios }}</p>
+        <p><strong>Fecha del Voto:</strong> {{ votacion.fecha_voto }}</p>
+    {% endfor %}
+</body>
+</html>

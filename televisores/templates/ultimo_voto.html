@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Último Voto</title>
+</head>
+<body>
+
+    <h1>Último Voto para el Televisor</h1>
+
+    <h2>Detalles del Televisor</h2>
+    <p><strong>Marca:</strong> {{ ultimo_voto.televisor.marca }}</p>
+    <p><strong>Modelo:</strong> {{ ultimo_voto.televisor.modelo }}</p>
+    <p><strong>Pulgadas:</strong> {{ ultimo_voto.televisor.pulgadas }}"</p>
+    <p><strong>Precio:</strong> {{ ultimo_voto.televisor.precio }}</p>
+
+    <h2>Detalles del Voto</h2>
+    <p><strong>Usuario:</strong> {{ ultimo_voto.usuario.nombre }}</p>
+    <p><strong>Puntuación:</strong> {{ ultimo_voto.puntuacion }}</p>
+    <p><strong>Comentarios:</strong> {{ ultimo_voto.comentarios }}</p>
+    <p><strong>Fecha de Voto:</strong> {{ ultimo_voto.fecha_voto }}</p>
+
+</body>
+</html>
